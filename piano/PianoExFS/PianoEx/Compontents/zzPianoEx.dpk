@@ -1,0 +1,50 @@
+package zzPianoEx;
+
+{$R *.res}
+{$R 'PianoKeyboard.dcr'}
+{$R 'MidiFile.dcr'}
+{$R 'MidiIn.dcr'}
+{$R 'MidiOut.dcr'}
+{$R 'PianoChannels.dcr'}
+{$R 'PianoTracks.dcr'}
+{$R 'MidiPlayer.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'PianoEx Components Pack'}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  vclx;
+
+contains
+  PianoKeyboard in 'PianoKeyboard.pas',
+  MidiFile in 'MidiFile.pas',
+  MidiIn in 'MidiIn.pas',
+  MidiOut in 'MidiOut.pas',
+  MidiCommon in 'MidiCommon.pas',
+  PianoChannels in 'PianoChannels.pas',
+  PianoTracks in 'PianoTracks.pas',
+  MidiPlayer in 'MidiPlayer.pas';
+
+end.

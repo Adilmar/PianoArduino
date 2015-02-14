@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">Default.Personality</Option>
+      <Option Name="ProjectType"></Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{A3A07A88-E1C7-4A1F-901D-8EA43EEB03B3}</Option>
+    </Option>
+  </PersonalityInfo>
+  <Default.Personality>
+    
+    <Projects>
+      <Projects Name="zzPianoEx.bpl">Compontents\zzPianoEx.bdsproj</Projects>
+      <Projects Name="PianoEx.exe">PianoEx.bdsproj</Projects>
+      <Projects Name="Targets">zzPianoEx.bpl PianoEx.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>
